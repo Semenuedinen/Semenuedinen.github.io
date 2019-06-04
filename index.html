@@ -1,0 +1,463 @@
+<!DOCTYPE html> 
+<html lang="ru"> 
+
+<head> 
+<meta charset="UTF-8"> 
+<title>Bесь цвет Cеребряного Bека</title> 
+<link rel="stylesheet" href="style.css"> 
+</head> 
+
+
+<style> 
+p { 
+display: inline-block; 
+} 
+h1{ 
+font-weight: 400; 
+display:inline-block; 
+margin: auto; 
+} 
+h1::after { 
+content:""; 
+display:block; 
+margin: auto; 
+height:2px; 
+background-color:#D0A9F5 ; 
+width:60%; 
+transition:all 1s; 
+} 
+h1:hover::after { 
+width:100%; 
+} 
+h3{ 
+font-weight: 400; 
+display:inline-block; 
+margin: auto; 
+} 
+h3::after { 
+content:""; 
+display:block; 
+margin: auto; 
+height:2px; 
+background-color:#D0A9F5 ; 
+width:60%; 
+transition:all 1s; 
+} 
+h3:hover::after { 
+width:100%; 
+} 
+div{ 
+font-weight: 400; 
+display:inline-block; 
+margin: auto; 
+} 
+div::after { 
+content:""; 
+display:block; 
+margin: auto; 
+height:2px; 
+width:60%; 
+transition:all 1s; 
+} 
+div:hover::after { 
+width:100%; 
+} 
+.menu__item1{ 
+display: inline; 
+} 
+.menu__href1{ 
+margin: 30px; 
+padding: 10px; 
+background:#F0F8FF ; 
+border: 1px solid white; 
+border-radius: 20%; 
+color:#F0FFFF ; 
+} 
+.menu__item{ 
+display: inline; 
+} 
+.menu__href{ 
+margin: 30px; 
+padding: 10px; 
+background: #F0F8FF; 
+border: 1px solid white; 
+border-radius: 20%; 
+color:#F0FFFF ; 
+} 
+div.a { 
+background: #FFFAFA 
+width: 380px; 
+height:253px ; 
+transition: 0.4s; 
+} 
+div.a:hover { 
+transform: scale(1.15, 1.15);border-radius: 3px; 
+} 
+div.f { 
+background: #FFFAFA 
+width: 380px; 
+border-radius: 3px; 
+height:253px ; 
+transition: 0.4s; 
+} 
+div.f:hover { 
+transform: scale(1.15, 1.15);border-radius: 3px; 
+} 
+div.g { 
+background: #FFFAFA 
+width: 380px; 
+border-radius: 3px; 
+height:253px ; 
+transition: 0.4s; 
+} 
+div.g:hover { 
+transform: scale(1.15, 1.15);border-radius: 3px; 
+} 
+div.s { 
+background: #FFFAFA 
+width: 380px; 
+height:253px ; 
+transition: 0.4s; 
+border-radius: 3px; 
+} 
+div.s:hover { 
+transform: scale(1.15, 1.15); 
+border-radius: 3px; 
+} 
+div.kar { 
+background: #FFFAFA 
+width: 1000px; 
+height:1000px; 
+transition: 0.4s; 
+} 
+</style> 
+<body background="1.jpg"> 
+<style> 
+html { height: 100%; width: 100%; } 
+body { 
+margin: 0; 
+height: 100%; 
+background-size: cover; 
+  background-attachment: fixed; 
+} 
+</style> 
+</body> 
+
+<body> 
+
+<nav> 
+<ul> 
+<li class="menu__item1"> 
+<a class="menu__href1" href="#art1"> <font color=#585858 face='Times New Roman' size='5'><b><i>О ПРОЕКТЕ</i></b></font></a> 
+</li> 
+<li class="menu__item"> 
+<a class="menu__href" href="#art2"><font color=#585858 face='Times New Roman' size='5'><b><i>О. МАНДЕЛЬШТАМ</i></b></font></a> 
+</li> 
+<li class="menu__item"> 
+<a class="menu__href" href="#art3"><font color=#585858 face='Times New Roman' size='5'><b><i>В. МАЯКОВСКИЙ</i></b></font></a> 
+</li> 
+<li class="menu__item1"> 
+<a class="menu__href1" href="#art4"> <font color=#585858 face='Times New Roman' size='5'><b><i>А. БЛОК</i></b></font></a> 
+</li> 
+<li class="menu__item1"> 
+<a class="menu__href1" href="#art5"> <font color=#585858 face='Times New Roman' size='5'><b><i>С. ЕСЕНИН</i></b></font></a> 
+</li> 
+<li class="menu__item1"> 
+<a class="menu__href1" href="#art6"> <font color=#585858 face='Times New Roman' size='5'><b><i>ВЫВОДЫ</i></b></font></a> 
+</li> 
+</ul> 
+</nav> 
+</body> 
+
+
+<main> 
+<article id="art1"> 
+<header> 
+<h2></h2> 
+<p></p> 
+<h3><font size='6'><b>ЧТО МЫ ПРИДУМАЛИ?</h3></font></b> 
+</header> 
+<br></br> 
+<font size='4' face='Times New Roman' color=#4682B4><b>Мы решили проанализировать цветовую гамму четырех поэтов, представителей разных течений, которые были популярные в 1920-1930е годы. </br>
+<br>Для анализа мы взяли Осипа Мандельштама как представителя акмеизма, Владимира Маяковского как футуриста, Александра Блока как символиста и Сергея Есенина как имажиниста.</br>
+<br>Далее мы прогнали сборники ихи стихотворений через НКРЯ, Antconc и регулярные выражения в программе, благодаря которой появился этот сайт) </br>
+<br>На основе всех реузльтатов мы выявили наиболее частотные цвета (или цвет) и попытались дать небольшую характеристику их поэзии. </br>
+</b></font><br></br> 
+</article> 
+</main> 
+</body> 
+
+<body> 
+
+<main> 
+<article id="art2"> 
+<header> 
+<h2></h2> 
+<h3><font size='6'><b>АКМЕИЗМ</h3></font></b> 
+</header> 
+<br><font size='4' face='Times New Roman'><i><b><a href='https://arzamas.academy/search?query=%D0%BC%D0%B0%D0%BD%D0%B4%D0%B5%D0%BB%D1%8C%D1%88%D1%82%D0%B0%D0%BC'>ОСИП МАНДЕЛЬШТАМ</a></b></i></font></br>
+<br><font size='6' color=#4682B4><u>НКРЯ</u></font></br>
+<table cols='3'width='50%'  border=0 cellspacing="0" cellpadding="7">
+<tr>
+   <td><img src='m.png'></td>
+   </tr>
+  <tr> 
+   <td><img src='m1.png'></td>
+   </tr>
+   <tr>
+ <td><img src='m2.png'></td>
+ </tr>
+ <tr>
+ <td>
+ <font size='4' face='Times New Roman'>ТЕКСТТЕКСТЕКСТЕКСТЕКСТЕКСТЕКСТ</font>
+ </td>
+ </tr>
+ </table>
+ 
+<br><font size='6' color=#4682B4><u>ANTCONC</u></font></br>
+<table cols='3'width='50%'  border=0 cellspacing="0" cellpadding="7">
+<tr>
+   <td><img src='ant1.jpg'></td>
+   </tr>
+  <tr> 
+   <td><img src='ant2.jpg'></td>
+   </tr>
+   <tr>
+ <td><img src='ant3.jpg'></td>
+ </tr>
+ <tr>
+ <td>
+ <font size='4' face='Times New Roman'>ТЕКСТТЕКСТЕКСТЕКСТЕКСТЕКСТЕКСТ</font>
+ </td>
+ </tr>
+ </table>
+ 
+ <br><font size='6' color=#4682B4><u>РЕГУЛЯРНЫЕ ВЫРАЖЕНИЯ</u></font></br>
+<table cols='3'width='50%'  border=0 cellspacing="1" cellpadding="7">
+<tr>
+   <td><img src='reg1.jpg'></td>
+   </tr>
+  <tr> 
+   <td><img src='reg2.jpg'></td>
+   </tr>
+   <tr>
+ <td><img src='reg3.jpg'></td>
+ </tr>
+ <tr>
+ <td>
+ <font size='4' face='Times New Roman'>ТЕКСТТЕКСТЕКСТЕКСТЕКСТЕКСТЕКСТ</font>
+ </td>
+ </tr>
+ </table>
+
+</article> 
+</main> 
+</body> 
+
+<body> 
+<main> 
+<article id="art3"> 
+<header> 
+<h2></h2> 
+<h3><font size='6'><b>ФУТУРИЗМ</h3></font></b> 
+</header> 
+<br><font size='4' face='Times New Roman'><i><b><a href='https://arzamas.academy/search?query=%D0%BC%D0%B0%D1%8F%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9'>ВЛАДИМИР МАЯКОВСКИЙ</a></b></i></font></br>
+<br><font size='6' color=#4682B4><u>НКРЯ</u></font></br>
+
+  <table cols='3'width='50%'  border=0 cellspacing="0" cellpadding="7">
+<tr>
+   <td><img src='ma.png'></td>
+   </tr>
+  <tr> 
+   <td><img src='ma1.png'></td>
+   </tr>
+   <tr>
+ <td><img src='ma2.png'></td>
+ </tr>
+ <tr>
+ <td>
+ <font size='4' face='Times New Roman'>ТЕКСТТЕКСТЕКСТЕКСТЕКСТЕКСТЕКСТ</font>
+ </td>
+ </tr>
+ </table>
+  
+  <br><font size='6' color=#4682B4><u>ANTCONC</u></font></br>
+<table cols='3'width='50%'  border=0 cellspacing="0" cellpadding="7">
+<tr>
+   <td><img src='ant4.jpg'></td>
+   </tr>
+  <tr> 
+   <td><img src='ant5.jpg'></td>
+   </tr>
+   <tr>
+ <td><img src='ant6.jpg'></td>
+ </tr>
+ <tr>
+ <td>
+ <font size='4' face='Times New Roman'>ТЕКСТТЕКСТЕКСТЕКСТЕКСТЕКСТЕКСТ</font>
+ </td>
+ </tr>
+ </table>
+  
+ <br><font size='6' color=#4682B4><u>РЕГУЛЯРНЫЕ ВЫРАЖЕНИЯ</u></font></br>
+<table cols='3'width='50%'  border=0 cellspacing="0" cellpadding="7">
+<tr>
+   <td><img src='reg4.jpg'></td>
+   </tr>
+  <tr> 
+   <td><img src='reg5.jpg'></td>
+   </tr>
+   <tr>
+ <td><img src='reg6.jpg'></td>
+ </tr>
+ <tr>
+ <td>
+ <font size='4' face='Times New Roman'>ТЕКСТТЕКСТЕКСТЕКСТЕКСТЕКСТЕКСТ</font>
+ </td>
+ </tr>
+ </table>
+ 
+<main> 
+<article id="art4"> 
+<header> 
+<h2></h2> 
+<h3><font size='6'><b>СИМВОЛИЗМ</h3></font></b> 
+</header> 
+<br><font size='4' face='Times New Roman'><i><b><a href='https://arzamas.academy/search?query=%D0%B1%D0%BB%D0%BE%D0%BA'>АЛЕКСАНДР БЛОК</a></b></i></font></br>
+<br><font size='6' color=#4682B4><u>НКРЯ</u></font></br>
+
+  <table cols='3'width='50%'  border=0 cellspacing="0" cellpadding="7">
+<tr>
+   <td><img src='b.png'></td>
+   </tr>
+  <tr> 
+   <td><img src='b1.png'></td>
+   </tr>
+   <tr>
+ <td><img src='b2.png'></td>
+ </tr>
+ <tr>
+ <td>
+ <font size='4' face='Times New Roman'>ТЕКСТТЕКСТЕКСТЕКСТЕКСТЕКСТЕКСТ</font>
+ </td>
+ </tr>
+ </table>
+  
+  <br><font size='6' color=#4682B4><u>ANTCONC</u></font></br>
+<table cols='3'width='50%'  border=0 cellspacing="0" cellpadding="7">
+<tr>
+   <td><img src='ant7.jpg'></td>
+   </tr>
+  <tr> 
+   <td><img src='ant8.jpg'></td>
+   </tr>
+   <tr>
+ <td><img src='ant9.jpg'></td>
+ </tr>
+ <tr>
+ <td>
+ <font size='4' face='Times New Roman'>ТЕКСТТЕКСТЕКСТЕКСТЕКСТЕКСТЕКСТ</font>
+ </td>
+ </tr>
+ </table>
+  
+ <br><font size='6' color=#4682B4><u>РЕГУЛЯРНЫЕ ВЫРАЖЕНИЯ</u></font></br>
+<table cols='3'width='50%'  border=0 cellspacing="0" cellpadding="7">
+<tr>
+   <td><img src='reg7.jpg'></td>
+   </tr>
+  <tr> 
+   <td><img src='reg8.jpg'></td>
+   </tr>
+   <tr>
+ <td><img src='reg9.jpg'></td>
+ </tr>
+ <tr>
+ <td>
+ <font size='4' face='Times New Roman'>ТЕКСТТЕКСТЕКСТЕКСТЕКСТЕКСТЕКСТ</font>
+ </td>
+ </tr>
+ </table>
+
+
+
+<main> 
+<article id="art5"> 
+<header> 
+<h2></h2> 
+<h3><font size='6'><b>ИМАЖИНИЗМ</h3></font></b> 
+</header> 
+
+<br><font size='4' face='Times New Roman'><i><b><a href='https://arzamas.academy/search?query=%D0%B5%D1%81%D0%B5%D0%BD%D0%B8%D0%BD'>СЕРГЕЙ ЕСЕНИН</a></b></i></font></br>
+<br><font size='6' color=#4682B4><u>НКРЯ</u></font></br>
+
+  <table cols='3'width='50%'  border=0 cellspacing="0" cellpadding="7">
+<tr>
+   <td><img src='e.png'></td>
+   </tr>
+  <tr> 
+   <td><img src='e1.png'></td>
+   </tr>
+   <tr>
+ <td><img src='e2.png'></td>
+ </tr>
+ <tr>
+ <td>
+ <font size='4' face='Times New Roman'>ТЕКСТТЕКСТЕКСТЕКСТЕКСТЕКСТЕКСТ</font>
+ </td>
+ </tr>
+ </table>
+  
+  <br><font size='6' color=#4682B4><u>ANTCONC</u></font></br>
+<table cols='3'width='50%'  border=0 cellspacing="0" cellpadding="7">
+<tr>
+   <td><img src='ant10.jpg'></td>
+   </tr>
+  <tr> 
+   <td><img src='ant11.jpg'></td>
+   </tr>
+   <tr>
+ <td><img src='ant12.jpg'></td>
+ </tr>
+ <tr>
+ <td>
+ <font size='4' face='Times New Roman'>ТЕКСТТЕКСТЕКСТЕКСТЕКСТЕКСТЕКСТ</font>
+ </td>
+ </tr>
+ </table>
+  
+ <br><font size='6' color=#4682B4><u>РЕГУЛЯРНЫЕ ВЫРАЖЕНИЯ</u></font></br>
+<table cols='3'width='50%'  border=0 cellspacing="0" cellpadding="7">
+<tr>
+   <td><img src='reg10.jpg'></td>
+   </tr>
+  <tr> 
+   <td><img src='reg11.jpg'></td>
+   </tr>
+   <tr>
+ <td><img src='reg12.jpg'></td>
+ </tr>
+ <tr>
+ <td>
+ <font size='4' face='Times New Roman'>ТЕКСТТЕКСТЕКСТЕКСТЕКСТЕКСТЕКСТ</font>
+ </td>
+ </tr>
+ </table>
+
+
+<main> 
+<article id="art6"> 
+<header> 
+<h2></h2> 
+<h3><font size='6'><b>К ЧЕМУ МЫ ПРИШЛИ?</h3></font></b> 
+</header> 
+<br></br> 
+<font size='4' face='Times New Roman' color=#4682B4><b>Мы решили проанализировать цветовую гамму четырех поэтов, представителей разных течений, которые были популярные в 1920-1930е годы. </br>
+<br>Для анализа мы взяли Осипа Мандельштама как представителя акмеизма, Владимира Маяковского как футуриста, Александра Блока как символиста и Сергея Есенина как имажиниста.</br>
+<br>Далее мы прогнали сборники ихи стихотворений через НКРЯ, Antconc и регулярные выражения в программе, благодаря которой появился этот сайт) </br>
+<br>На основе всех реузльтатов мы выявили наиболее частотные цвета (или цвет) и попытались дать небольшую характеристику их поэзии. </br>
+</b></font><br></br> 
+
+</article> 
+</main> 
+</body> 
